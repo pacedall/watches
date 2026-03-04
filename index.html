@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pacedall Watches — Digital Watch Faces for Apple, Android & Zepp</title>
+  <meta name="description" content="Premium digital watch faces for Apple Watch, Android Wear OS and Zepp. Simplistic, Luxury, Sport and Battery-Saving designs by Pacedall Watches."/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="images/watches-logo.png" alt="Pacedall Watches"/>
+      <div class="nav-logo-text">
+        <span class="brand">PACEDALL</span>
+        <span class="sub">Watches</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="pages/collection.html">Collection</a></li>
+      <li><a href="pages/about.html">Our Story</a></li>
+      <li><a href="pages/collection.html?cat=sport">Sport</a></li>
+      <li><a href="pages/collection.html?cat=luxury">Luxury</a></li>
+      <li><a href="pages/collection.html" class="nav-shop">Shop Now</a></li>
+    </ul>
+    <div class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <div class="mobile-close">&#x2715;</div>
+  <a href="index.html">Home</a>
+  <a href="pages/collection.html">Collection</a>
+  <a href="pages/about.html">Our Story</a>
+  <a href="pages/contact.html">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-platforms">
+      <span class="platform-chip">
+        <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Apple Watch
+      </span>
+      <span class="platform-chip sky">
+        <svg viewBox="0 0 24 24"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993s-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993s-.4483.9997-.9993.9997M17.34 8.7693H6.66L5.01 5.3367H2.18v1.5h1.63l4.28 9.083 1.98-.0004 1.248-2.621h2.744l1.248 2.621 1.98.0004L19.82 6.8367H21v-1.5h-2.84L17.34 8.7693z"/></svg>
+        Android & Wear OS
+      </span>
+      <span class="platform-chip gold">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Zepp / Amazfit
+      </span>
+    </div>
+    <h1 class="hero-title">
+      Time Is Your<br/><em>Edge</em>
+    </h1>
+    <p class="hero-body">
+      Premium digital watch faces crafted for Apple Watch, Android Wear OS, and Zepp. 
+      Simplistic, Luxury, Sport, and Battery-Saving designs — all under one brand.
+    </p>
+    <div class="hero-actions">
+      <a href="pages/collection.html" class="btn btn-grad">
+        <span>Explore Collection</span>
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+      <a href="pages/about.html" class="btn btn-ghost">
+        Our Story
+        <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="num">50+</span><span class="label">Models</span></div>
+      <div class="hero-stat"><span class="num">12K+</span><span class="label">Happy Owners</span></div>
+      <div class="hero-stat"><span class="num">5&#9733;</span><span class="label">Avg. Rating</span></div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <!-- Orbiting rings -->
+    <div class="watch-ring watch-ring-1"></div>
+    <div class="watch-ring watch-ring-2"></div>
+
+    <!-- Hero Watch Face SVG (Luxury dark face with gold accents) -->
+    <div class="watch-scene">
+      <svg class="watch-face-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="hg1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F5A623"/>
+            <stop offset="100%" style="stop-color:#4A90D9"/>
+          </linearGradient>
+          <linearGradient id="hg2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1B2A6B"/>
+            <stop offset="100%" style="stop-color:#0D1B4B"/>
+          </linearGradient>
+          <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="rgba(27,42,107,0.4)"/></filter>
+          <clipPath id="face-clip"><circle cx="200" cy="200" r="178"/></clipPath>
+        </defs>
+        <!-- Watch body -->
+        <rect x="175" y="8" width="50" height="36" rx="8" fill="#1B2A6B"/>
+        <rect x="175" y="356" width="50" height="36" rx="8" fill="#1B2A6B"/>
+        <!-- Watch case -->
+        <circle cx="200" cy="200" r="192" fill="url(#hg2)" filter="url(#shadow)"/>
+        <circle cx="200" cy="200" r="178" fill="#0D1B4B"/>
+        <!-- Gradient ring -->
+        <circle cx="200" cy="200" r="175" fill="none" stroke="url(#hg1)" stroke-width="3"/>
+        <!-- Subtle inner ring -->
+        <circle cx="200" cy="200" r="158" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+        <!-- Hour markers -->
+        <g stroke="url(#hg1)" stroke-width="3" stroke-linecap="round">
+          <line x1="200" y1="32" x2="200" y2="54"/>
+          <line x1="200" y1="346" x2="200" y2="368"/>
+          <line x1="32" y1="200" x2="54" y2="200"/>
+          <line x1="346" y1="200" x2="368" y2="200"/>
+        </g>
+        <g stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-linecap="round">
+          <line x1="291" y1="44" x2="282" y2="59"/>
+          <line x1="356" y1="109" x2="341" y2="118"/>
+          <line x1="356" y1="291" x2="341" y2="282"/>
+          <line x1="291" y1="356" x2="282" y2="341"/>
+          <line x1="109" y1="356" x2="118" y2="341"/>
+          <line x1="44" y1="291" x2="59" y2="282"/>
+          <line x1="44" y1="109" x2="59" y2="118"/>
+          <line x1="109" y1="44" x2="118" y2="59"/>
+        </g>
+        <!-- PACEDALL text -->
+        <text x="200" y="135" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" letter-spacing="6" fill="rgba(255,255,255,0.6)">PACEDALL</text>
+        <!-- Date window -->
+        <rect x="248" y="192" width="40" height="28" rx="4" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <text x="268" y="211" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="white">24</text>
+        <!-- Hour hand -->
+        <line x1="200" y1="200" x2="200" y2="110" stroke="white" stroke-width="6" stroke-linecap="round"/>
+        <!-- Minute hand -->
+        <line x1="200" y1="200" x2="248" y2="88" stroke="white" stroke-width="4" stroke-linecap="round"/>
+        <!-- Second hand -->
+        <line x1="200" y1="200" x2="240" y2="290" stroke="url(#hg1)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="200" y1="200" x2="178" y2="150" stroke="url(#hg1)" stroke-width="2" stroke-linecap="round"/>
+        <!-- Center pip -->
+        <circle cx="200" cy="200" r="8" fill="url(#hg1)"/>
+        <circle cx="200" cy="200" r="3" fill="white"/>
+        <!-- Subdial -->
+        <circle cx="200" cy="272" r="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+        <line x1="200" y1="272" x2="200" y2="252" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+        <text x="200" y="302" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">AUTOMATIC</text>
+      </svg>
+    </div>
+
+    <!-- Floating chips -->
+    <div class="float-chip chip-1">
+      <div class="float-chip-icon">
+        <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" fill="currentColor" stroke="none"/></svg>
+      </div>
+      <div class="float-chip-text">
+        <strong>Apple Watch</strong>
+        <span>Series 4 – Ultra</span>
+      </div>
+    </div>
+    <div class="float-chip chip-2">
+      <div class="float-chip-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div class="float-chip-text">
+        <strong>Zepp OS 3+</strong>
+        <span>Amazfit Compatible</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="ticker-dot"></span>Apple Watch Series 4–Ultra</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Android Wear OS 3+</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Zepp OS 3 / Amazfit</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Simplistic Collection</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Luxury Collection</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Sport Collection</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Battery-Saving Collection</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>EST. 2024 &middot; Pacedall Labs</span>
+  </div>
+</div>
+
+<!-- PLATFORMS -->
+<section class="section platforms">
+  <div class="container">
+    <div class="eyebrow">Available On</div>
+    <h2>Three Platforms. <em>One Vision.</em></h2>
+    <p class="lead" style="margin-top:16px;">Pacedall watch faces are precision-crafted to look stunning on every major wearable platform — with native resolution, always-on optimisation, and platform-specific features.</p>
+    <div class="platforms-grid reveal">
+      <!-- Apple -->
+      <div class="platform-card">
+        <div class="platform-number">01</div>
+        <div class="platform-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="url(#hg1)">
+            <defs><linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F5A623"/><stop offset="100%" stop-color="#4A90D9"/></linearGradient></defs>
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+        </div>
+        <div class="platform-name">Apple Watch</div>
+        <p class="platform-desc">Designed for watchOS 7 and above, supporting Series 4 through Ultra 2. Rich complications, Always-On Display, and Dynamic Island integration.</p>
+        <div class="platform-specs">
+          <div class="platform-spec">watchOS 7+ compatible</div>
+          <div class="platform-spec">Always-On Display optimised</div>
+          <div class="platform-spec">Complications & widgets</div>
+          <div class="platform-spec">Series 4, 5, 6, 7, 8, 9, Ultra, SE</div>
+        </div>
+      </div>
+      <!-- Android -->
+      <div class="platform-card">
+        <div class="platform-number">02</div>
+        <div class="platform-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <defs><linearGradient id="hg2a" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F5A623"/><stop offset="100%" stop-color="#4A90D9"/></linearGradient></defs>
+            <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993s-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993s-.4483.9997-.9993.9997M17.34 8.7693H6.66L5.01 5.3367H2.18v1.5h1.63l4.28 9.083 1.98-.0004 1.248-2.621h2.744l1.248 2.621 1.98.0004L19.82 6.8367H21v-1.5h-2.84z" fill="url(#hg2a)" stroke="none"/>
+          </svg>
+        </div>
+        <div class="platform-name">Android / Wear OS</div>
+        <p class="platform-desc">Built natively for Wear OS 3 and above, compatible with Samsung Galaxy Watch, Pixel Watch, and all major Android wearables.</p>
+        <div class="platform-specs">
+          <div class="platform-spec">Wear OS 3+ compatible</div>
+          <div class="platform-spec">Samsung Galaxy Watch support</div>
+          <div class="platform-spec">Pixel Watch optimised</div>
+          <div class="platform-spec">Health & fitness data tiles</div>
+        </div>
+      </div>
+      <!-- Zepp -->
+      <div class="platform-card">
+        <div class="platform-number">03</div>
+        <div class="platform-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="url(#hg3)" stroke-width="1.5">
+            <defs><linearGradient id="hg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F5A623"/><stop offset="100%" stop-color="#4A90D9"/></linearGradient></defs>
+            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <div class="platform-name">Zepp / Amazfit</div>
+        <p class="platform-desc">Engineered for Zepp OS 3 and the Amazfit ecosystem — from the GTR and GTS series to the T-Rex and Falcon, covering the full Amazfit range.</p>
+        <div class="platform-specs">
+          <div class="platform-spec">Zepp OS 3+ compatible</div>
+          <div class="platform-spec">Amazfit GTR / GTS range</div>
+          <div class="platform-spec">T-Rex, Falcon, Band support</div>
+          <div class="platform-spec">Ultra battery optimisation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section class="section collections">
+  <div class="container">
+    <div class="eyebrow">Design Collections</div>
+    <h2>Four Styles. <em>Infinite Moments.</em></h2>
+    <p class="lead" style="margin-top:16px;">Every Pacedall watch face belongs to one of four carefully designed collections, each built to match a different lifestyle and aesthetic.</p>
+    <div class="collections-grid" style="margin-top:64px;">
+
+      <!-- SIMPLISTIC - large -->
+      <div class="collection-card large reveal" data-delay="0">
+        <div class="collection-visual" style="background:linear-gradient(145deg,#F4F6FB,#E8EDF8);">
+          <span class="collection-badge">Most Popular</span>
+          <!-- Simplistic face SVG -->
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F5A623"/>
+                <stop offset="100%" stop-color="#4A90D9"/>
+              </linearGradient>
+            </defs>
+            <circle cx="150" cy="150" r="140" fill="white" stroke="rgba(27,42,107,0.08)" stroke-width="2"/>
+            <circle cx="150" cy="150" r="130" fill="none" stroke="url(#cg1)" stroke-width="3"/>
+            <!-- Minimal hour marks - just dots -->
+            <circle cx="150" cy="26" r="5" fill="url(#cg1)"/>
+            <circle cx="274" cy="150" r="5" fill="url(#cg1)"/>
+            <circle cx="150" cy="274" r="5" fill="url(#cg1)"/>
+            <circle cx="26" cy="150" r="5" fill="url(#cg1)"/>
+            <!-- Time display -->
+            <text x="150" y="138" text-anchor="middle" font-family="Inter,sans-serif" font-size="48" font-weight="300" fill="#1B2A6B">10:10</text>
+            <text x="150" y="168" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" letter-spacing="4" fill="#6B7BAA">WED 24</text>
+            <!-- Thin hands -->
+            <line x1="150" y1="150" x2="150" y2="74" stroke="#1B2A6B" stroke-width="2" stroke-linecap="round"/>
+            <line x1="150" y1="150" x2="196" y2="80" stroke="#1B2A6B" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="150" y1="150" x2="192" y2="216" stroke="#F5A623" stroke-width="1" stroke-linecap="round"/>
+            <circle cx="150" cy="150" r="4" fill="#1B2A6B"/>
+            <circle cx="150" cy="150" r="2" fill="white"/>
+          </svg>
+        </div>
+        <div class="collection-info">
+          <div class="collection-name">Simplistic</div>
+          <p class="collection-desc">Clean, modern watch faces that strip everything back to what matters — time, date, and a touch of quiet elegance. Perfect for everyday wear.</p>
+          <div class="collection-count">
+            <span>18 faces available</span>
+            <div class="collection-arrow"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LUXURY -->
+      <div class="collection-card reveal" data-delay="0.1">
+        <div class="collection-visual" style="background:linear-gradient(145deg,#0D1B4B,#1B2A6B);">
+          <span class="collection-badge gold-badge">Premium</span>
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cg2" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F5A623"/>
+                <stop offset="100%" stop-color="#4A90D9"/>
+              </linearGradient>
+            </defs>
+            <circle cx="150" cy="150" r="140" fill="#0D1B4B"/>
+            <circle cx="150" cy="150" r="135" fill="none" stroke="url(#cg2)" stroke-width="2.5"/>
+            <circle cx="150" cy="150" r="120" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+            <!-- Roman-style marks -->
+            <g stroke="url(#cg2)" stroke-width="3" stroke-linecap="round">
+              <line x1="150" y1="16" x2="150" y2="36"/>
+              <line x1="150" y1="264" x2="150" y2="284"/>
+              <line x1="16" y1="150" x2="36" y2="150"/>
+              <line x1="264" y1="150" x2="284" y2="150"/>
+            </g>
+            <g stroke="rgba(245,166,35,0.4)" stroke-width="1.5" stroke-linecap="round">
+              <line x1="222" y1="28" x2="215" y2="43"/>
+              <line x1="272" y1="78" x2="257" y2="85"/>
+              <line x1="272" y1="222" x2="257" y2="215"/>
+              <line x1="222" y1="272" x2="215" y2="257"/>
+              <line x1="78" y1="272" x2="85" y2="257"/>
+              <line x1="28" y1="222" x2="43" y2="215"/>
+              <line x1="28" y1="78" x2="43" y2="85"/>
+              <line x1="78" y1="28" x2="85" y2="43"/>
+            </g>
+            <text x="150" y="108" text-anchor="middle" font-family="Georgia,serif" font-size="11" letter-spacing="5" fill="rgba(255,255,255,0.4)">PACEDALL</text>
+            <!-- Hour hand -->
+            <line x1="150" y1="150" x2="150" y2="74" stroke="white" stroke-width="4" stroke-linecap="round"/>
+            <!-- Minute hand -->
+            <line x1="150" y1="150" x2="186" y2="66" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Second hand with counterweight -->
+            <line x1="150" y1="150" x2="180" y2="218" stroke="url(#cg2)" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="150" y1="150" x2="136" y2="116" stroke="url(#cg2)" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="150" cy="150" r="6" fill="url(#cg2)"/>
+            <circle cx="150" cy="150" r="2.5" fill="white"/>
+          </svg>
+        </div>
+        <div class="collection-info">
+          <div class="collection-name">Luxury</div>
+          <p class="collection-desc">Rich, dark dials with gold and chrome accents. Inspired by haute horlogerie, designed for the digital wrist.</p>
+          <div class="collection-count">
+            <span>14 faces available</span>
+            <div class="collection-arrow"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPORT -->
+      <div class="collection-card reveal" data-delay="0.2">
+        <div class="collection-visual" style="background:linear-gradient(145deg,#EAF4FF,#D5E9FF);">
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cg3" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F5A623"/>
+                <stop offset="100%" stop-color="#4A90D9"/>
+              </linearGradient>
+            </defs>
+            <!-- Squircle sport bezel -->
+            <rect x="10" y="10" width="280" height="280" rx="60" fill="white" stroke="rgba(74,144,217,0.15)" stroke-width="2"/>
+            <rect x="18" y="18" width="264" height="264" rx="55" fill="none" stroke="url(#cg3)" stroke-width="3"/>
+            <!-- Speed marks -->
+            <g fill="url(#cg3)">
+              <rect x="144" y="28" width="12" height="22" rx="2"/>
+              <rect x="144" y="250" width="12" height="22" rx="2"/>
+              <rect x="28" y="144" width="22" height="12" rx="2"/>
+              <rect x="250" y="144" width="22" height="12" rx="2"/>
+            </g>
+            <!-- Main time -->
+            <text x="150" y="148" text-anchor="middle" font-family="Inter,sans-serif" font-size="52" font-weight="800" fill="#1B2A6B">10:10</text>
+            <!-- Steps / BPM -->
+            <text x="80" y="196" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#6B7BAA">BPM</text>
+            <text x="80" y="216" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#F5A623">142</text>
+            <text x="220" y="196" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#6B7BAA">STEPS</text>
+            <text x="220" y="216" text-anchor="middle" font-family="Inter,sans-serif" font-size="18" font-weight="800" fill="#4A90D9">8.2K</text>
+            <!-- Progress arc -->
+            <circle cx="150" cy="150" r="128" fill="none" stroke="rgba(27,42,107,0.06)" stroke-width="6"/>
+            <circle cx="150" cy="150" r="128" fill="none" stroke="url(#cg3)" stroke-width="6" stroke-linecap="round" stroke-dasharray="536" stroke-dashoffset="160" transform="rotate(-90 150 150)"/>
+          </svg>
+        </div>
+        <div class="collection-info">
+          <div class="collection-name">Sport</div>
+          <p class="collection-desc">Bold, high-contrast designs with real-time fitness data. BPM, steps, calories, and pace — all at a glance during your workout.</p>
+          <div class="collection-count">
+            <span>16 faces available</span>
+            <div class="collection-arrow"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BATTERY -->
+      <div class="collection-card reveal" data-delay="0.3">
+        <div class="collection-visual" style="background:linear-gradient(145deg,#EDFAF3,#D5F0E5);">
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cg4" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#22C55E"/>
+                <stop offset="100%" stop-color="#4A90D9"/>
+              </linearGradient>
+            </defs>
+            <circle cx="150" cy="150" r="140" fill="white" stroke="rgba(34,197,94,0.15)" stroke-width="2"/>
+            <!-- Ultra minimal - just key info -->
+            <text x="150" y="120" text-anchor="middle" font-family="Inter,sans-serif" font-size="14" font-weight="500" letter-spacing="3" fill="#6B7BAA">WED 24 MAR</text>
+            <text x="150" y="170" text-anchor="middle" font-family="Inter,sans-serif" font-size="56" font-weight="200" fill="#1B2A6B">10:10</text>
+            <!-- Battery indicator -->
+            <rect x="118" y="192" width="64" height="20" rx="4" fill="none" stroke="rgba(27,42,107,0.15)" stroke-width="1.5"/>
+            <rect x="182" y="197" width="5" height="10" rx="2" fill="rgba(27,42,107,0.15)"/>
+            <rect x="120" y="194" width="52" height="16" rx="3" fill="url(#cg4)"/>
+            <text x="148" y="207" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="white">87%</text>
+            <!-- "Low power" aura -->
+            <circle cx="150" cy="150" r="136" fill="none" stroke="url(#cg4)" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="collection-info">
+          <div class="collection-name">Battery Saver</div>
+          <p class="collection-desc">Ultra-efficient designs using minimal colour and processing. Engineered to extend your watch's battery life without sacrificing style.</p>
+          <div class="collection-count">
+            <span>12 faces available</span>
+            <div class="collection-arrow"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how">
+  <div class="container text-center">
+    <div class="eyebrow center">How It Works</div>
+    <h2>Get Your Face in <em>4 Steps</em></h2>
+    <div class="steps" style="margin-top:64px;">
+      <div class="step reveal" data-delay="0">
+        <div class="step-num">1</div>
+        <h3>Choose Your Platform</h3>
+        <p>Select Apple Watch, Android Wear OS, or Zepp &amp; Amazfit — and filter to your exact device model.</p>
+      </div>
+      <div class="step reveal" data-delay="0.1">
+        <div class="step-num">2</div>
+        <h3>Pick Your Style</h3>
+        <p>Browse Simplistic, Luxury, Sport, or Battery Saver collections. Preview each face before you buy.</p>
+      </div>
+      <div class="step reveal" data-delay="0.2">
+        <div class="step-num">3</div>
+        <h3>Download &amp; Install</h3>
+        <p>One-tap installation via the native app. No technical knowledge required — it just works.</p>
+      </div>
+      <div class="step reveal" data-delay="0.3">
+        <div class="step-num">4</div>
+        <h3>Wear with Pride</h3>
+        <p>Every update is free for life. New faces added monthly. Your wrist, always fresh.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES / WHY PACEDALL -->
+<section class="section features">
+  <!-- Gradient defs for icon strokes -->
+  <svg width="0" height="0" style="position:absolute;">
+    <defs>
+      <linearGradient id="grad-stroke" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#F5A623"/>
+        <stop offset="100%" stop-color="#4A90D9"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <div class="container">
+    <div class="eyebrow">Why Pacedall</div>
+    <h2>Built for Every <em>Wrist</em></h2>
+    <p class="lead" style="margin-top:16px;">We obsess over every pixel, every frame rate, every complication. So you never have to.</p>
+    <div class="features-grid">
+      <div class="feature-item reveal" data-delay="0">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="feature-title">Native Resolution</div>
+        <div class="feature-desc">Every face is designed at native resolution for each specific device — no scaling, no blurring, no compromise.</div>
+      </div>
+      <div class="feature-item reveal" data-delay="0.1">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div>
+        <div class="feature-title">Smooth Animations</div>
+        <div class="feature-desc">Fluid second-hand sweeps, subtle transitions, and micro-animations at 60fps where the platform allows.</div>
+      </div>
+      <div class="feature-item reveal" data-delay="0.2">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><rect x="1" y="6" width="15" height="13" rx="2"/><path d="M16 10h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2"/><line x1="10" y1="10" x2="4" y2="10"/><line x1="10" y1="13" x2="4" y2="13"/></svg></div>
+        <div class="feature-title">Battery Engineered</div>
+        <div class="feature-desc">Our Battery Saver collection uses our proprietary low-power rendering pipeline — proven to extend battery life by up to 40%.</div>
+      </div>
+      <div class="feature-item reveal" data-delay="0.3">
+        <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="feature-title">Free Updates Forever</div>
+        <div class="feature-desc">Buy once, update forever. OS compatibility updates, bug fixes, and seasonal variants are all included at no extra cost.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+  <div class="container">
+    <div class="eyebrow">Customer Reviews</div>
+    <h2>Loved by Watch <em>Enthusiasts</em></h2>
+    <div class="testimonials-grid">
+      <div class="testimonial reveal" data-delay="0">
+        <div class="stars">
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testimonial-text">"The Luxury collection on my Apple Watch Ultra looks absolutely incredible. Better than anything I found in the App Store — and half the price."</div>
+        <div class="testimonial-author">
+          <div class="author-av">JR</div>
+          <div><div class="author-name">James Rodriguez</div><div class="author-role">Apple Watch Ultra 2 owner</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal" data-delay="0.1">
+        <div class="stars">
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testimonial-text">"The Sport face on my Amazfit GTR 4 shows my heart rate and steps perfectly. The gradient design is stunning. Battery hasn't been an issue at all."</div>
+        <div class="testimonial-author">
+          <div class="author-av">PK</div>
+          <div><div class="author-name">Priya Kapoor</div><div class="author-role">Amazfit GTR 4 owner</div></div>
+        </div>
+      </div>
+      <div class="testimonial reveal" data-delay="0.2">
+        <div class="stars">
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg class="star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testimonial-text">"I switched my Pixel Watch to the Simplistic Pacedall face and haven't looked back. It's elegant, fast, and the free update policy is genuinely rare."</div>
+        <div class="testimonial-author">
+          <div class="author-av">MT</div>
+          <div><div class="author-name">Marcus Thompson</div><div class="author-role">Google Pixel Watch 2 owner</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="container">
+    <div class="eyebrow center" style="color:rgba(255,255,255,0.8);justify-content:center;">Start Today</div>
+    <h2>Your Wrist Deserves Better</h2>
+    <p class="lead">Browse 50+ premium watch faces across Apple Watch, Android, and Zepp. New designs added every month.</p>
+    <a href="pages/collection.html" class="btn-white">
+      Browse All Faces
+      <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+</div>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div class="eyebrow center">Stay in the Loop</div>
+      <h2>New Faces, <em>First</em></h2>
+      <p>Get early access to new collections, exclusive free drops, and platform compatibility updates straight to your inbox.</p>
+      <form class="nl-form" onsubmit="return false;">
+        <input type="email" placeholder="Enter your email address"/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/watches-logo.png" alt="Pacedall Watches"/>
+        <p>Premium digital watch faces for Apple Watch, Android Wear OS, and Zepp. Crafted by Pacedall Labs &mdash; Est. 2024.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-btn" aria-label="Twitter/X"><svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+          <a href="#" class="social-btn" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34l-.02-8.43A8.27 8.27 0 0020 8.87V5.45a4.85 4.85 0 01-.41-.76z"/></svg></a>
+        </div>
+        <!-- MANDATORY legal links -->
+        <div class="footer-legal" style="margin-top:28px;">
+          <a href="https://terms.pacedall.com" target="_blank" rel="noopener">Terms of Service</a>
+          <a href="https://privacy.pacedall.com" target="_blank" rel="noopener">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="pages/collection.html">All Watch Faces</a></li>
+          <li><a href="pages/collection.html">Simplistic</a></li>
+          <li><a href="pages/collection.html">Luxury</a></li>
+          <li><a href="pages/collection.html">Sport</a></li>
+          <li><a href="pages/collection.html">Battery Saver</a></li>
+          <li><a href="pages/collection.html">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Platforms</h4>
+        <ul>
+          <li><a href="pages/collection.html">Apple Watch</a></li>
+          <li><a href="pages/collection.html">Android / Wear OS</a></li>
+          <li><a href="pages/collection.html">Zepp / Amazfit</a></li>
+          <li><a href="pages/about.html">Compatibility Guide</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="pages/about.html">Our Story</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="https://terms.pacedall.com" target="_blank" rel="noopener">Terms of Service</a></li>
+          <li><a href="https://privacy.pacedall.com" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Pacedall Labs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2025 Pacedall Watches. A Pacedall Labs Company. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://terms.pacedall.com" target="_blank" rel="noopener">Terms</a>
+        <a href="https://privacy.pacedall.com" target="_blank" rel="noopener">Privacy</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
